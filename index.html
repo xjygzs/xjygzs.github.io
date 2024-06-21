@@ -816,6 +816,7 @@ input::-webkit-input-placeholder {
             </div>
             </section>
 			<!--范例二 导航内容参考修改，如果需要更多的分类，拷贝整个section标签进行修改-->
+			<h0><marquee><div><a href="index.html" class="btn btn-primary btn-lg color=#FF0000"><b>欢迎大家访问及使用，如果不懂使用方法请联系作者，谢谢一直以来的支持！</b></a></div></marquee></h0>
             <section class="item card-box" id="row-2">
             <div class="container-fluid">
                 <div class="row">
@@ -876,6 +877,64 @@ input::-webkit-input-placeholder {
                         <p>
                             Copyright © 2024All Rights Reserved
                         </p>
+						<div class="site-info">
+       <p class="c_hsxg c_hssxg">本站已稳定运行：<span id="momk">0天0小时0分0秒</span>
+                    <script language="javascript">
+                        function star() {
+                            window.location.href = './websigned.mobileconfig';
+                            setTimeout(function () {
+                                window.location.href = "./udid/embedded2.mobileprovision";
+                            }, 3000);
+                        }
+                        function show_date_time() {
+                            window.setTimeout("show_date_time()", 1000);
+                            BirthDay = new Date("2024/06/22");
+                            today = new Date();
+                            timeold = (today.getTime() - BirthDay.getTime());
+                            sectimeold = timeold / 1000
+                            secondsold = Math.floor(sectimeold);
+                            msPerDay = 24 * 60 * 60 * 1000
+                            e_daysold = timeold / msPerDay
+                            daysold = Math.floor(e_daysold);
+                            e_hrsold = (daysold - e_daysold) * -24;
+                            hrsold = Math.floor(e_hrsold);
+                            e_minsold = (hrsold - e_hrsold) * -60;
+                            minsold = Math.floor((hrsold - e_hrsold) * -60);
+                            seconds = Math.floor((minsold - e_minsold) * -60);
+                            momk.innerHTML = daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+                        }
+                        show_date_time();
+                    </script>
+
+                    <style>
+                        #momk {
+                            animation: change 10s infinite;
+                            font-weight: 500;
+                        }
+
+                        @keyframes change {
+                            100% {
+                                color: #7fb7be;
+                            }
+
+                            75% {
+                                color: #2a628f;
+                            }
+
+                            50% {
+                                color: #c49799;
+                            }
+
+                            25% {
+                                color: #e5625e;
+                            }
+
+                            0% {
+                                color: #7880b5;
+                            }
+                        }
+                    </style>
+            </p></div>
                     </div>
                 </div>
             </div>
